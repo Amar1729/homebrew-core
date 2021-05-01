@@ -15,6 +15,6 @@ class Zinc < Formula
   end
 
   test do
-    system "#{bin}/zinc", "-version"
+    system "#{bin}/zinc", "-debug-command", "-version"
   end
 end
